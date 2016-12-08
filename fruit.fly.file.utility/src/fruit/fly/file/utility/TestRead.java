@@ -37,12 +37,17 @@ public class TestRead {
 	private void readLine(String line,String file) throws Exception {
 		
 		
-		System.out.println(":) " + file + " :: " + line);;
+		System.out.println(":) " + file + " :: " + line.substring(2,8));;
 		
 		
 		
 	}
 
+	
+	
+	
+	
+	
 	private File pick() throws Exception {
 		JFileChooser fc = new JFileChooser();
 		fc.setCurrentDirectory(new File("C:/load"));
